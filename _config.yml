@@ -21,15 +21,15 @@ people:
 #    - title: stack-overflow
 #      url: #
 
-- name: Larry Parker
+- name: Ilya Slingerland
   pic: 2
-  position: Lead Marketer
+  position: Senior Consultant
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
+      url: http://linkedin.com/ilyaslingerland
+    - title: twitter
+      url: 
+    - title: facebook
       url: #
 
 #- name: Diana Petersen
