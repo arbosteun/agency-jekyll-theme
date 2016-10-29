@@ -4,7 +4,8 @@ baseurl: /arbosteun/
 # Site settings
 title: Arbosteun
 email: ilyaslingerland@arbosteun.nl
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Arbosteun levert adviesdiensten op het gebied van arbeidsomstandigheden binnen bedrijven door heel Europa. Deze adviesdiensten variëren van ergonomische adviezen ter voorkoming van lichamelijke klachten, tot het uitvoeren van Risico Inventarisaties en -Evaluaties.
+Door Arbosteun klein te houden is de aanpak persoonlijker en kunnen we zodoende meer maatwerk leveren. Dit brengt onze dienstverlening naar een hoger niveau. Wij komen graag bij u langs om vrijblijvend kennis te maken!"
 
 # Team names, titles and social links
 people:
@@ -44,16 +45,10 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: linkedin
+    url: http://linkedin/ilyaslingerland
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: http://facebook.com/ilya.slingerland
 
 # Postal address (add as many lines as necessary)
 address:
