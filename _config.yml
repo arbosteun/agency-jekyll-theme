@@ -10,45 +10,17 @@ Door Arbosteun klein te houden is de aanpak persoonlijker en kunnen we zodoende 
 # Team names, titles and social links
 people:
 
-#- name: Kay Garland
-#  pic: 1
-#  position: Lead Designer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: stack-overflow
-#      url: #
-
 - name: Ilya Slingerland
   pic: 2
   position: Senior Consultant
   social:
     - title: linkedin
       url: http://linkedin.com/ilyaslingerland
-    - title: twitter
-      url: 
-    - title: facebook
-      url: #
-
-#- name: Diana Petersen
-#  pic: 3
-#  position: Lead Developer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: google-plus
-#      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
     url: http://linkedin/ilyaslingerland
-  - title: facebook
-    url: http://facebook.com/ilya.slingerland
 
 # Postal address (add as many lines as necessary)
 address:
