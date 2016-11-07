@@ -10,9 +10,9 @@ Door Arbosteun klein te houden is de aanpak persoonlijker en kunnen we zodoende 
 # Team names, titles and social links
 people:
 
-- name: Ilya Slingerland
+- name: Ilya Slingerland-den Dulk
   pic: 1
-  position: Senior Consultant
+  position: Ergonomic Expert
   social:
     - title: linkedin
       url: http://linkedin.com/ilyaslingerland
@@ -26,7 +26,7 @@ social:
 address:
   - line: Simon Gammerkade 1,
   - line: 1544 VL, Zaandijk
-  - line: Nederland
+  - line: The Netherlands
 
 # Build settings
 markdown: kramdown
