@@ -2,7 +2,7 @@ url: https://arbosteun.github.io
 #baseurl: /arbosteun/
 
 # Site settings
-title: Arbosteun
+title: ErGo-knowhow
 email: ilyaslingerland@arbosteun.nl
 description: "Arbosteun levert adviesdiensten op het gebied van arbeidsomstandigheden binnen bedrijven door heel Europa. Deze adviesdiensten variëren van ergonomische adviezen ter voorkoming van lichamelijke klachten, tot het uitvoeren van Risico Inventarisaties en -Evaluaties.
 Door Arbosteun klein te houden is de aanpak persoonlijker en kunnen we zodoende meer maatwerk leveren. Dit brengt onze dienstverlening naar een hoger niveau. Wij komen graag bij u langs om vrijblijvend kennis te maken!"
@@ -10,9 +10,9 @@ Door Arbosteun klein te houden is de aanpak persoonlijker en kunnen we zodoende 
 # Team names, titles and social links
 people:
 
-- name: Ilya Slingerland
+- name: Ilya Slingerland-den Dulk
   pic: 1
-  position: Senior Consultant
+  position: Ergonomic Expert
   social:
     - title: linkedin
       url: http://linkedin.com/ilyaslingerland
@@ -26,7 +26,7 @@ social:
 address:
   - line: Simon Gammerkade 1,
   - line: 1544 VL, Zaandijk
-  - line: Nederland
+  - line: The Netherlands
 
 # Build settings
 markdown: kramdown
