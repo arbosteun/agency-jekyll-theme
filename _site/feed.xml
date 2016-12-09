@@ -5,8 +5,8 @@
     <description>Arbosteun levert adviesdiensten op het gebied van arbeidsomstandigheden binnen bedrijven door heel Europa. Deze adviesdiensten variëren van ergonomische adviezen ter voorkoming van lichamelijke klachten, tot het uitvoeren van Risico Inventarisaties en -Evaluaties. Door Arbosteun klein te houden is de aanpak persoonlijker en kunnen we zodoende meer maatwerk leveren. Dit brengt onze dienstverlening naar een hoger niveau. Wij komen graag bij u langs om vrijblijvend kennis te maken!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Dec 2016 14:37:23 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Dec 2016 14:37:23 +0100</lastBuildDate>
+    <pubDate>Fri, 09 Dec 2016 15:34:56 +0100</pubDate>
+    <lastBuildDate>Fri, 09 Dec 2016 15:34:56 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -49,19 +49,6 @@
       </item>
     
       <item>
-        <title>Europese Commissie</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/consultancy/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">http://localhost:4000/consultancy/2014/07/15/project-4/</guid>
-        
-        
-        <category>Consultancy</category>
-        
-      </item>
-    
-      <item>
         <title>AGC</title>
         <description>
 </description>
@@ -81,6 +68,19 @@
         <pubDate>Mon, 14 Jul 2014 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/consultancy/2014/07/14/project-5/</link>
         <guid isPermaLink="true">http://localhost:4000/consultancy/2014/07/14/project-5/</guid>
+        
+        
+        <category>Consultancy</category>
+        
+      </item>
+    
+      <item>
+        <title>In Goede Handen</title>
+        <description>
+</description>
+        <pubDate>Sat, 12 Jul 2014 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/consultancy/2014/07/12/project-7/</link>
+        <guid isPermaLink="true">http://localhost:4000/consultancy/2014/07/12/project-7/</guid>
         
         
         <category>Consultancy</category>
