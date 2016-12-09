@@ -4,7 +4,7 @@ subtitle: Consultancy
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: pvda-framework.png
+img: pvda.png
 thumbnail: pvda-thumbnail.png
 alt: image-alt
 project-date: April 2014

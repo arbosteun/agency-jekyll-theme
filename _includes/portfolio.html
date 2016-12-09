@@ -1,29 +1,18 @@
-<div class="l-subsection color_dark with_parallax" style="background-image: url(http://freemz.nl/uploads/parallax2.png)">
+<section id="portfolio">
 	<div id="container" >
-		<h3>Onze <strong>klanten</strong></h3>
-		<div class="row">
-			<div>
-				<img width="200" height="133" src="http://freemz.nl/uploads/rituals-200x133.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image"
-					alt="Rituals" srcset="http://freemz.nl/uploads/rituals-200x133.png 200w, http://freemz.nl/uploads/rituals.png 300w" sizes="(max-width: 200px) 100vw, 200px"
-				/>
-			</div>
-			<div><img width="200" height="133" src="http://freemz.nl/uploads/transdev-logo-freemz.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image"
-					alt="Transdev Freemz" />
-			</div>
-			<div><img width="200" height="133" src="http://freemz.nl/uploads/vicair-logo-freemz.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image"
-					alt="Vicair Freemz" />
-			</div>
-			<div><img width="200" height="133" src="http://freemz.nl/uploads/rabobank-logo-freemz.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image"
-					alt="Rabobank Freemz" />
-			</div>
-			<div><img width="200" height="133" src="http://freemz.nl/uploads/OLVG-1-200x133.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image"
-					alt="OLVG-1" srcset="http://freemz.nl/uploads/OLVG-1.png 300w, http://freemz.nl/uploads/OLVG-1-200x133.png 200w" sizes="(max-width: 200px) 100vw, 200px"
-				/>
-			</div>
-			<div><img width="200" height="133" src="http://freemz.nl/uploads/ebury-logo-200x133.png" class="attachment-carousel-thumb size-carousel-thumb wp-post-image"
-					alt="Ebury Freemz" srcset="http://freemz.nl/uploads/ebury-logo-200x133.png 200w, http://freemz.nl/uploads/ebury-logo.png 300w"
-					sizes="(max-width: 200px) 100vw, 200px" />
-			</div>
+		<<div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Client Portfolio</h2>
+                    <h3 class="section-subheading text-muted">A few examples of clients of ErGo-knowhow (formerly known as Arbosteun)</h3>
+                 </div>
+            </div>
+		<div class="row text-center">
+		    {% for post in site.posts %}
+                <div class="col-md-4 col-sm-6 portfolio-item" style="padding: 16px">                   
+                	<img width="auto" height="160" src="img/portfolio/{{ post.img }}" class="img-centered" style="padding-top: 5px" alt="">
+                </div>
+            {% endfor %}
 		</div>
 	</div>
 </div>
+</section>
