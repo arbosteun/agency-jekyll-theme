@@ -1,18 +1,17 @@
 <section id="portfolio">
 	<div id="container" >
-		<<div class="row">
+	    <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Client Portfolio</h2>
                     <h3 class="section-subheading text-muted">A few examples of clients of ErGo-knowhow (formerly known as Arbosteun)</h3>
                  </div>
             </div>
-		<div class="row text-center">
+	    <div class="row text-center">
 		    {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item" style="padding: 16px">                   
+                    <div class="col-md-4 col-sm-6 portfolio-item" style="padding: 16px">                   
                 	<img width="auto" height="160" src="img/portfolio/{{ post.img }}" class="portfoliologo" alt="">
-                </div>
-            {% endfor %}
-		</div>
+                    </div>
+                    {% endfor %}
+	    </div>
 	</div>
-</div>
 </section>
