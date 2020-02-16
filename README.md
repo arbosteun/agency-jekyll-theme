@@ -2,6 +2,7 @@
 
 
 ## Getting started
+- Install jekyll. See steps here: https://jekyllrb.com/docs/
 - clone
 - cd arbosteun.github.io
 - run: bundle exec jekyll serve
