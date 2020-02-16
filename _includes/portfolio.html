@@ -3,13 +3,19 @@
 	    <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Client Portfolio</h2>
-                    <h3 class="section-subheading text-muted">A few examples of clients of ErGo-knowhow (known as Arbosteun for the Dutch market)</h3>
+                    <h3 class="section-subheading text-muted">
+                        {% if page.lang=="en" %}
+                        A few examples of clients of ErGo-knowhow (known as Arbosteun for the Dutch market)
+                        {% else if page.lang=="nl"  %}
+                        A few examples of clients of ErGo-knowhow (known as Arbosteun for the Dutch market) MAAR DAN IN NL
+                        {% endif %}                         
+           </h3>
                  </div>
             </div>
 	    <div class="row text-center">
 		    {% for post in site.posts %}
                     <div class="col-md-4 col-sm-6 portfolio-item" style="padding: 16px">                   
-                	<img width="auto" height="160" src="img/portfolio/{{ post.img }}" class="portfoliologo" alt="">
+                	<img width="auto" height="160" src="../img/portfolio/{{ post.img }}" class="portfoliologo" alt="">
                     </div>
                     {% endfor %}
 	    </div>

@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="#page-top">{{ site.title[page.lang] }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,16 +19,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">{{ site.header_services[page.lang] }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Client Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">{{ site.header_portfolio[page.lang] }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About ErGo-knowhow</a>
+                        <a class="page-scroll" href="#about">{{ site.header_about[page.lang] }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">{{ site.header_contact[page.lang] }}</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
                 <div class="intro-heading">ErGo-knowhow</div>
                 <div class="intro-lead-in">Professional ergonomic consultation</div>
                 <a href="#services" >
-                    <img src="img/logo.png"/>
+                    <img src="../img/logo.png"/>
                     </a>
 
             </div>
