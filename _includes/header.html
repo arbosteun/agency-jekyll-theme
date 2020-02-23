@@ -53,7 +53,13 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">ErGo-knowhow</div>
-                <div class="intro-lead-in">Professional ergonomic consultation</div>
+                <div class="intro-lead-in">
+                     {% if page.lang=="nl" %}
+                        Professioneel ergonomisch advies
+                        {% else  %}
+                        Professional ergonomic consultation
+                        {% endif %}        
+                 </div>
                 <a href="#services" >
                     <img src="../img/logo.png"/>
                     </a>
