@@ -6,3 +6,17 @@ img.portfoliologo {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+
+.wrapper {
+  display: flex;
+  vertical-align: middle;
+}
+
+.first {
+  flex: 0 0 65%;
+}
+
+.second {
+  flex: 1;
+}
+
