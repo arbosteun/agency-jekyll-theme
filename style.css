@@ -7,9 +7,14 @@ img.portfoliologo {
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
+.fullheight {
+  height: 100%;
+}
+
 .wrapper {
   display: flex;
-  vertical-align: middle;
+  margin-top: 16px;
+  margin-left: 16px;
 }
 
 .first {
@@ -19,4 +24,10 @@ img.portfoliologo {
 .second {
   flex: 1;
 }
+
+.topcorner{
+  position:absolute;
+  top:0;
+  right:0;
+ }
 
