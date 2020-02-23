@@ -15,16 +15,19 @@ img.portfoliologo {
   display: flex;
   margin-top: 16px;
   margin-left: 16px;
-  height: 100%;
 }
 
 .first {
   flex: 0 0 65%;
-  height: 100%;
 }
 
 .second {
   flex: 1;
-  height: 100%;
 }
+
+.topcorner{
+  position:absolute;
+  top:0;
+  right:0;
+ }
 
