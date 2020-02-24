@@ -3,8 +3,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About ErGo-knowhow</h2>
-                    <p class="large text-muted">ErGo-knowhow is specialized in the prevention and alleviation of work related physical complaints. With clientele throughout all of Europe, ErGo-knowhow provides advice to both employees and managers in how to improve the work environment.<p>
+                    <h2 class="section-heading">
+                        
+                        {% if page.lang=="nl" %}
+                        Over ErGo-knowhow
+                        {% else  %}
+                        About ErGo-knowhow
+                        {% endif %}    
+                        
+                        </h2>
+                    <p class="large text-muted">
+                        
+                        {% if page.lang=="nl" %}
+                        ErGo-knowhow is gespecialiseerd in het voorkomen en verhelpen van werkgerelateerde lichamelijke klachten. Met klanten door heel Europa adviseert ErGo-knowhow medewerkers en leidinggevenden met betrekking tot het verbeteren van de arbeidsomstandigheden. 
+
+
+                        {% else  %}
+                        ErGo-knowhow is specialized in the prevention and alleviation of work related physical complaints. With clientele throughout all of Europe, ErGo-knowhow provides advice to both employees and managers in how to improve the work environment.
+                        {% endif %}    
+                        
+                        <p>
                 </div>
             </div>
             <div class="row">
@@ -31,7 +49,14 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">
-                        Would you like to prevent or alleviate the work related physical illnesses and/or issues within your organization? Call or send an E-mail to: info@ergoknowhow.com</h3>
+                        
+                        {% if page.lang=="nl" %}
+                        Wilt u binnen uw organisatie ook graag werkgerelateerde klachten voorkomen of verhelpen? Bel of stuur een E-mail naar: info@ergoknowhow.nl
+                        {% else  %}
+                        Would you like to prevent or alleviate the work related physical illnesses and/or issues within your organization? Call or send an E-mail to: info@ergoknowhow.com
+                        {% endif %}    
+
+                        </h3>
                     </p>
                 </div>
             </div>
