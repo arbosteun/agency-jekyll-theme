@@ -30,14 +30,14 @@ people:
 - name: Ilya Slingerland-den Dulk
   pic: 1
   position: Ergonomic Expert
-  social:
-    - title: linkedin
-      url: http://linkedin.com/ilyaslingerland
+#  social:
+#    - title: linkedin
+#      url: http://linkedin.com/ilyaslingerland
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: http://linkedin/ilyaslingerland
+#social:
+#  - title: linkedin
+#    url: http://linkedin/ilyaslingerland
 
 # Postal address (add as many lines as necessary)
 address:
